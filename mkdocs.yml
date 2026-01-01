@@ -1,6 +1,6 @@
 site_name: TVM Solidity Documentation
 site_description: Documentation for TVM Solidity developers migrating from Ethereum
-site_url: https://example.github.io/tvm-solidity-docs/
+site_url: https://yevheniiadolska.github.io/tvm_test_task/
 
 theme:
   name: cinder
