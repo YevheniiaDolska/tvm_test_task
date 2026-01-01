@@ -1,0 +1,25 @@
+.headerlink {
+    color: transparent !important;
+}
+
+.copy-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 4px 8px;
+    font-size: 12px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.copy-button:hover {
+    opacity: 1;
+    background: #e0e0e0;
+}
+
+pre {
+    position: relative;
+}

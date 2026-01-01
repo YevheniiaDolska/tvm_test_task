@@ -1,0 +1,34 @@
+site_name: TVM Solidity Documentation
+site_description: Documentation for TVM Solidity developers migrating from Ethereum
+site_url: https://example.github.io/tvm-solidity-docs/
+
+theme:
+  name: cinder
+  highlightjs: true
+  hljs_languages:
+    - solidity
+    - javascript
+    - bash
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+
+nav:
+  - Structure: documentation_structure.md
+  - Migration Guide: migration-guide.md
+
+plugins:
+  - search
+
+extra_css:
+  - css/custom.css
+
+extra_javascript:
+  - js/copy-code.js
